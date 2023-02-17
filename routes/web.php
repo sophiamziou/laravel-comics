@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/comics', function () {
-    $fumetti = config('db.fumetti');
-    return view('comics', compact('fumetti'));
-})->name('books');
+    $books = config('db.books');
+    return view('comics', compact('books'));
+})->name('comics');
