@@ -1,17 +1,7 @@
-{{-- <header>
-    <div class="container">
-        <div class="row">
-            <div class="col">LOGO</div>
-            <div class="col">list</div>
-            <div class="col">search</div>
-        </div>
-    </div>
-    <a href="{{ route('books') }}">Giochi</a>
-</header> --}}
 <div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
-        <img src="{{Vite::asset('resources/img/images/dc-lodo-bg.png')}}" alt="LOGO">
+        <img src="{{ Vite::asset('resources/img/images/dc-logo.png') }}" alt="LOGO">
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
