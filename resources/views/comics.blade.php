@@ -17,19 +17,21 @@
     <main>
         <div class="container">
             <div class="row">
-                @foreach ($books as $book)
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="{{$book['thumb']}}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">{{$book['title']}}</h5>
+                @foreach ($books as $key => $book)
+                <a href="{{ route('single-comic', ['param'=> $key]) }}">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{$book['thumb']}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{$book['title']}}</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
                 @endforeach
             </div>
         </div>
     </main>
     @include('partials.footer')
 </body>
-</html> 
+</html>

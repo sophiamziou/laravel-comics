@@ -213,5 +213,52 @@ return [
                 "Joëlle Jones"
             ],
         ],
+    ],
+    'footer' => [
+        [
+            "label" => "DC COMICS",
+            "sublabel" => [
+                "Characters",
+                "Comics",
+                "Movies",
+                "TV",
+                "Games",
+                "Videos",
+                "News"
+            ]
+        ],
+        [
+            "label" => "SHOP",
+            "sublabel" => [
+                "Sop DC",
+                "Shop DC Collectibles"
+            ]
+        ],
+        [
+            "label" => "DC",
+            "sublabel" => [
+                "Terms Of Use",
+                "Privacy policy(New)",
+                "Ad Choices",
+                "Advertising",
+                "Jobs",
+                "Subscription",
+                "Talent Workshops",
+                "CPSC Certificates",
+                "Ratings",
+                "Shop Help",
+                "Contact Us"
+            ]
+        ],
+        [
+            "label" => "SITES",
+            "sublabel" => [
+                "DC",
+                "MAD Magazine",
+                "DC Kids",
+                "DC Universe",
+                "DC Power Visa"
+            ]
+        ]
     ]
 ];
